@@ -24,6 +24,9 @@ git checkout master # switch to master
 git commit -a -v  // -a all changes and diff shows
 git rebase master # when in human branc, we rebase master onto human
 
+# if we want the human back in master
+# move to master: git checkout master
+
 
 
 
