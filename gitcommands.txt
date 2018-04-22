@@ -26,8 +26,22 @@ git rebase master # when in human branc, we rebase master onto human
 
 # if we want the human back in master
 # move to master: git checkout master
-# git diff master human 
-# git merge human
+# git diff master human    -- show diff between the branches 
+# git merge human          -- merges human into master
+
+# go back before the merge , dont use
+git reset --hard ORIG_HEAD
+
+git chekcout -b vegetable   --> creates the branch + moves into it!
+ 
+git stash "started on something but had to go to master and to a quick fix"  -- stashes for l8r
+git status will show this
+git checkout master
+git add something
+git commit -a -v -m " hehehehe"
+git checkout vegetable
+git stash list  -> should show what we stashed before :P
+git stash apply -> now we are back where we were in the start
 
 
 
