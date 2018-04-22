@@ -43,7 +43,26 @@ git checkout vegetable
 git stash list  -> should show what we stashed before :P
 git stash apply -> now we are back where we were in the start
 
- 
+# delete a branch
+git branch -d human 
+git branch -D human   // big D to force it and clean up repoitory
+
+# delete stash shit
+git stash clear
+
+
+# repositories
+
+
+
+
+
+
+
+
+
+
+
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@youremail.com"
 git init
