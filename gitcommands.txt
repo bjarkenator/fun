@@ -26,6 +26,10 @@ git rebase master # when in human branc, we rebase master onto human
 
 # if we want the human back in master
 # move to master: git checkout master
+# then look at the diffs: git diff master human
+# then merge: git merge human
+# done
+
 
 
 
