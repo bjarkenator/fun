@@ -3,7 +3,21 @@
 .gitinfoexclude *trorjeg* kun til mig selv, .gitignore kommer med ud.
 
 git add . -- add all to git :D
+git commit -a --commit all changes
+git add /f/F/file specific file
+git commit -v containts diff of the stuff in the commit message
 
+git log --stat  nice overview + show depth and extend stuff has changed in ghraph
+git log -p      actual diff what actually was changed.
+
+gitk --all &  graphical front end to see branches.
+
+git branch 
+git branch --color  //show local remote in color
+git branch human // new branch human 
+git branch
+# do git checkout human to get into the human branch
+# checkl with git branch.
 
 
 git config --global user.name "Your Name Here"
