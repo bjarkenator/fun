@@ -26,7 +26,6 @@ git rebase master # when in human branc, we rebase master onto human
 
 # if we want the human back in master
 # move to master: git checkout master
-<<<<<<< HEAD
 # git diff master human    -- show diff between the branches 
 # git merge human          -- merges human into master
 
@@ -43,19 +42,6 @@ git commit -a -v -m " hehehehe"
 git checkout vegetable
 git stash list  -> should show what we stashed before :P
 git stash apply -> now we are back where we were in the start
-=======
-# then look at the diffs: git diff master human
-# then merge: git merge human
-# done
->>>>>>> 3d46016f1bd60fa71e821e30d59b4c8792eaf64b
-
-
-
-
-
-
-
-
 
  
 git config --global user.name "Your Name Here"
