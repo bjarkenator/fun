@@ -1,0 +1,30 @@
+
+.gitignore can contain single files or *.log, to ignore files.
+.gitinfoexclude *trorjeg* kun til mig selv, .gitignore kommer med ud.
+
+git add . -- add all to git :D
+
+
+
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
+git init
+git add Readme.txt
+git commit -m “Add Readme.txt”
+git remote add origin https://github.com/username/myproject.git
+git remote -v
+git push
+
+# for ruby etc for programs which are not whitespace aware at all.
+git config --global apply.whitespace nowarn
+
+gb git branch
+gba git branch -a
+gc git commit -v
+gd git diff | mate
+gl git pull
+gp git push
+gst git status
+
+
+
