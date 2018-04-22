@@ -22,6 +22,15 @@ git branch
 git checkout human  # switch to human 
 git checkout master # switch to master
 git commit -a -v  // -a all changes and diff shows
+git rebase master # when in human branc, we rebase master onto human
+
+
+
+
+
+
+
+
  
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@youremail.com"
