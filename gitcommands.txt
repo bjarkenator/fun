@@ -19,7 +19,10 @@ git branch
 # do git checkout human to get into the human branch
 # checkl with git branch.
 
-
+git checkout human  # switch to human 
+git checkout master # switch to master
+git commit -a -v  // -a all changes and diff shows
+ 
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@youremail.com"
 git init
