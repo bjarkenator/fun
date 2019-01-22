@@ -14,6 +14,9 @@ gitk --all &  graphical front end to see branches.
 
 git branch 
 git branch --color  //show local remote in color
+git barch -a // shows all branches also remote one
+git branch --track  fish origin /fish   // auto setup see .gitconfig
+
 git branch human // new branch human 
 git branch
 # do git checkout human to get into the human branch
@@ -52,6 +55,7 @@ git stash clear
 
 
 # repositories
+scp used for ssh copying files
 
 
 
