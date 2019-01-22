@@ -4,6 +4,7 @@
 
 git add . -- add all to git :D
 git commit -a --commit all changes
+git commit -m "hej new release" -- commit change with remark
 git add /f/F/file specific file
 git commit -v containts diff of the stuff in the commit message
 
@@ -52,6 +53,13 @@ git branch -D human   // big D to force it and clean up repoitory
 
 # delete stash shit
 git stash clear
+
+# show the difference between index and respository
+git diff --cached
+
+# show the difference between working area and index
+git diff
+
 
 
 # repositories
